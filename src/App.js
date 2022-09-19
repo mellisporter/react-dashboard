@@ -1,9 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
+import Dashboard from "./components/Dashboard"
 
 function App() {
   return (
-    <h1>This will be a dashboard.</h1>
+    <Dashboard/>
   );
 }
 
