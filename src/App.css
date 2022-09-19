@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+/* setting up a flex grid template to define columns and rows  */
+
+.dashboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 100vh;
+  background-color: bisque;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sidebar {
+  grid-column: 1/1;
+  grid-row: 1/4;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.reviews {
+  grid-column: 2/2;
+  grid-row: 1/1;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.rating {
+  grid-column: 3/3;
+  grid-row: 1/1;
 }
 
-.App-link {
-  color: #61dafb;
+.analysis {
+  grid-column: 4/5;
+  grid-row: 1/1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.visitors {
+  grid-column: 2/5;
+  grid-row: 2/4;
+}
+
+.sidebar, .reviews, .rating, .analysis, .visitors {
+  background-color: blueviolet;
+  margin: 5px;
 }

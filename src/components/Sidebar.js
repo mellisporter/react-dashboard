@@ -1,6 +1,6 @@
 function Sidebar() {
     return(
-        <div>
+        <div className="sidebar">
             <p>Dashboard</p>
             <p>Widget</p>
             <p>Reviews</p>

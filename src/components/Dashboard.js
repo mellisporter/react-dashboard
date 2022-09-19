@@ -6,7 +6,7 @@ import Sidebar from "./Sidebar";
 
 function Dashboard() {
     return(
-        <div>
+        <div className="dashboard">
             <Reviews/>
             <Rating/>
             <Analysis/>
