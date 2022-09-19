@@ -1,7 +1,7 @@
 function Rating() {
     return(
         <div className="rating">
-            <h1>Average Rating</h1>
+            <h3>Average Rating</h3>
             <p>4.6</p>
         </div>
     )

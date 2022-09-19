@@ -6,7 +6,10 @@
   grid-template-rows: 1fr 1fr 1fr;
   height: 100vh;
   background-color: white;
+  font-family: 'Courier New', Courier, monospace;
   
+
+/* setting up each component to take up the appropriate space in the dashboard */
 }
 
 .sidebar {
@@ -44,4 +47,12 @@
   width: 85%;
   margin: auto;
   background-color: darkgrey;
+}
+
+.data, .sidebar {
+  text-align: center;
+}
+
+.text {
+  margin-top: 100%;
 }
