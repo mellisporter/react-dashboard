@@ -40,8 +40,8 @@
 }
 
 .graph {
-  width: 80%;
-  height: 80%;
-  margin: 15px;
-  background-color: black;
+  height: 75%;
+  width: 85%;
+  margin: auto;
+  background-color: darkgrey;
 }
