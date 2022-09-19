@@ -6,13 +6,17 @@ import Sidebar from "./Sidebar";
 
 function Dashboard() {
     return(
-        <div className="dashboard">
+        <div className="wireframe">
+            <div className="dashboard">
             <Reviews/>
             <Rating/>
             <Analysis/>
             <Visitors/>
             <Sidebar/>
         </div>
+
+        </div>
+        
     )
 }
 

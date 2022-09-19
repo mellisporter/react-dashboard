@@ -12,6 +12,8 @@
 /* setting up each component to take up the appropriate space in the dashboard */
 }
 
+.wireframe
+
 .sidebar {
   grid-column: 1/1;
   grid-row: 1/4;
@@ -46,7 +48,8 @@
   height: 75%;
   width: 85%;
   margin: auto;
-  background-color: darkgrey;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/ca/Blue_bar_graph.png");
+  background-size: cover;
 }
 
 .data, .sidebar {
