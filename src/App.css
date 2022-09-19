@@ -5,7 +5,7 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   height: 100vh;
-  background-color: bisque;
+  background-color: white;
   
 }
 
@@ -35,6 +35,13 @@
 }
 
 .sidebar, .reviews, .rating, .analysis, .visitors {
-  background-color: blueviolet;
+  background-color: gainsboro;
   margin: 5px;
+}
+
+.graph {
+  width: 80%;
+  height: 80%;
+  margin: 15px;
+  background-color: black;
 }
